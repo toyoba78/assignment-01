@@ -3,6 +3,9 @@
     padding: 0;
     
 }
+p {
+    color:#475569; ;
+}
 .container {
     margin: 25px 250px ;
 }
@@ -56,6 +59,11 @@ a {
 .banner-content h1 {
     margin-top: ;
     padding: 20px;
+    font-size: 50px;
+}
+.banner-text {
+    line-height: 1.5;
+    color: #b8c2cf;
 }
 
 .niche {
@@ -121,7 +129,6 @@ a {
 }
 .common-content {
     display: grid;
-
     grid-template-columns: repeat(3,1fr);
     padding: 30px;
     align-items: center;
@@ -154,6 +161,9 @@ a {
     display: list-item;
     margin-bottom: 10px;
 }
+.Pro-p {
+    color: #2563EB;
+}
 /* button er joto kaj  suru*/
 .Pro {
     background-color: rgb(11, 12, 33);
@@ -180,3 +190,73 @@ a {
     color: #1b1c1d;
 }
 /* button er joto kaj  ses*/
+
+
+
+ /* AI Section */
+.ai-section {
+    padding: 60px 0;
+    background-color: #f8fafc; 
+    text-align: center;
+}
+
+.ai {
+    font-size: 30px;
+    font-weight: bold;
+    color: #0f172a;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+.ai-text {
+    font-size: 16px;
+    color: #475569;
+    max-width: 800px;        
+    margin: 0 auto;         
+    padding: 0 20px;
+    line-height: 1.5; 
+}
+/* Footer Custom Styles */
+/* Footer Container Styles */
+.custom-footer {
+    background-color: #0b1528; /* প্রফেশনাল ডার্ক ব্যাকগ্রাউন্ড */
+    color: #cbd5e1;
+    padding: 50px 0 25px 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Logo on the left & Social links on the right using Flexbox */
+.footer-top {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+/* Social Icons Styling */
+.footer-socials a {
+    color: #cbd5e1;
+    text-decoration: none;
+    margin-left: 20px;
+    font-size: 18px;
+    transition: color 0.3s ease;
+}
+
+/* hover effect */
+.footer-socials a:hover {
+    color: #2563eb; 
+}
+
+/* Horizontal Divider Styling */
+.footer-divider {
+    border: 0;
+    border-top: 1px solid #334155; 
+    margin: 35px 0 25px 0;
+}
+
+.footer-bottom {
+    text-align: center;
+    font-size: 14px;
+    color: #94a3b8;
+}
