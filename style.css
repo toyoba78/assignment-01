@@ -216,16 +216,16 @@ a {
     padding: 0 20px;
     line-height: 1.5; 
 }
-/* Footer Custom Styles */
-/* Footer Container Styles */
+/* Footer Section */
+
 .custom-footer {
-    background-color: #0b1528; /* প্রফেশনাল ডার্ক ব্যাকগ্রাউন্ড */
+    background-color: #0b1528; 
     color: #cbd5e1;
     padding: 50px 0 25px 0;
     font-family: Arial, sans-serif;
 }
 
-/* Logo on the left & Social links on the right using Flexbox */
+
 .footer-top {
     display: flex;
     justify-content: space-between; 
@@ -234,7 +234,6 @@ a {
     gap: 20px;
 }
 
-/* Social Icons Styling */
 .footer-socials a {
     color: #cbd5e1;
     text-decoration: none;
@@ -248,7 +247,6 @@ a {
     color: #2563eb; 
 }
 
-/* Horizontal Divider Styling */
 .footer-divider {
     border: 0;
     border-top: 1px solid #334155; 
