@@ -1,7 +1,7 @@
 * {
     margin: 0;
     padding: 0;
-    
+    font-family: Arial, sans-serif;
 }
 p {
     color:#475569; ;
@@ -219,10 +219,10 @@ a {
 /* Footer Section */
 
 .custom-footer {
-    background-color: #0b1528; 
+    background-color: #0c182f; 
     color: #cbd5e1;
     padding: 50px 0 25px 0;
-    font-family: Arial, sans-serif;
+    
 }
 
 
@@ -235,11 +235,11 @@ a {
 }
 
 .footer-socials a {
-    color: #cbd5e1;
+    color: #c8d0da;
     text-decoration: none;
     margin-left: 20px;
     font-size: 18px;
-    transition: color 0.3s ease;
+    
 }
 
 /* hover effect */
@@ -249,12 +249,12 @@ a {
 
 .footer-divider {
     border: 0;
-    border-top: 1px solid #334155; 
+    border-top: 1px solid #38475c; 
     margin: 35px 0 25px 0;
 }
 
 .footer-bottom {
     text-align: center;
-    font-size: 14px;
-    color: #94a3b8;
+    font-size: 13px;
+    color: #9fb0c8;
 }
