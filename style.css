@@ -3,3 +3,180 @@
     padding: 0;
     
 }
+.container {
+    margin: 25px 250px ;
+}
+
+.common-btn {
+    padding: 9px 30px;
+    border: none;
+    border-radius: 8px;
+    background-color: rgb(67, 67, 240);
+    color: aliceblue;
+}
+/* navbar er kaj */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 40px;
+}
+ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    gap: 20px;
+
+}
+a {
+    text-decoration: none;
+    color: #1b1c1d;
+}
+/* banner er kaj */
+.banner {
+  
+     background-image: 
+        linear-gradient(135deg, rgba(0, 0, 0, 0.95) 0%, rgba(0, 0, 0, 0.7) 40%, rgba(0, 0, 0, 0) 100%),
+        url("./img/banner.jpg");
+    height: 80vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.banner-content {
+    flex: flex;
+    text-align: center;
+    color: aliceblue;
+   padding-top: 250px
+  
+}
+.banner-content h1 {
+    margin-top: ;
+    padding: 20px;
+}
+
+.niche {
+    margin-top: 400px;
+}
+/* meet content section */
+.meet-h1 {
+    text-align: center;
+    padding: 30px;
+    font-weight: bold;
+}
+.meet-content {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 25px;
+    max-width: 1100px;
+    margin: 0 auto;
+    
+    
+}
+.meet {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;                       
+    width: 100%;
+}
+.meet-box {
+    padding: 15px ;
+    border-radius: 8px;
+    background-color: rgb(247, 243, 243) ;
+    border: none;
+    box-sizing: border-box;
+    overflow: hidden;
+    box-shadow: none;
+}
+.meet-box img {
+    width: 106%;       
+    margin-left: -3%;   
+    margin-top: -3%;    
+    height: auto;
+    display: block;
+    object-fit: cover;
+}
+.meet-box p {
+    padding: 5px;
+
+}
+.nili {
+    font-size: 11px;
+    color: #20a6c8;
+}
+
+
+/* Secure Your spot */
+.Secure {
+    text-align: center;
+    margin: 10px 200px;
+}
+.Secure h1 {
+    padding: 10px;
+    font-size: 44px;
+}
+.common-content {
+    display: grid;
+
+    grid-template-columns: repeat(3,1fr);
+    padding: 30px;
+    align-items: center;
+    margin: 0 auto;
+    gap: 30px;
+    align-items: stretch;
+    width: 100%;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+.common {
+    
+     background-color: #f8fafc;
+    border: 1px solid #e2e8f0;
+    border-radius: 12px;
+    padding: 40px 30px;
+    box-sizing: border-box;
+    text-align:left ;
+}
+.common ul.list li::marker {
+    color: #2563EB;
+}
+.common ul.list {
+    display: block;
+     list-style: disc;
+    margin: 30px 15px;
+    text-align: left;
+}
+.common ul.list li {
+    display: list-item;
+    margin-bottom: 10px;
+}
+/* button er joto kaj  suru*/
+.Pro {
+    background-color: rgb(11, 12, 33);
+    color: #d6dde6;
+}
+.normal-btn1 {
+   padding: 11px 100px;
+    margin: 10px 0px;
+    border-color:  #2563EB;
+    border-radius: 8px;
+    text-align: center;
+    color: #2563EB;
+}
+.pro-btn {
+    padding: 11px 110px;
+    margin: 10px 0px;
+    border-radius: 8px;
+}
+.normal-btn2 {
+   padding: 11px 100px;
+    margin: 10px 0px;
+    border-color:  #1b1c1d;
+    border-radius: 8px;
+    color: #1b1c1d;
+}
+/* button er joto kaj  ses*/
